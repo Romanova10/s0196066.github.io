@@ -129,7 +129,7 @@ input, select, textarea {
     nav {
         position: absolute;
         top: 0;
-        left: 75%;
+        left: 85.5%;
         transform: translateX(-51%);
         max-width: none;
         width: auto;
