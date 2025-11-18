@@ -9,14 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <header class="py-3">
+  <header class="py-3">
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-4 col-md-1">
           <img class="float-start" src="IMG_0865.jpg" alt="Логотип" style="width: 120px;">
         </div>
         <div class="col-8 col-md-6 text-start text-md-start">
-          <div class="site-title fw-bold fs-3">Задание 4 Романова Кира</div>
+          <div class="site-title fw-bold fs-4">Задание 4 Романова Кира</div>
         </div>
         <div class="col-12 col-md-5 col-lg-4 col-xl-3 mt-2 mt-md-0">
           <nav class="py-2 px-3 px-md-4">
@@ -30,61 +30,63 @@
       </div>
     </div>
   </header>
-<div class="container my-4">
+  <div class="container my-4">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-6 order-2 order-lg-1 order-md-1 mb-4">
-           <div class="link-section">
-            <h1 id="links">Гиперссылки</h1>
-            <ul>
-                <li><a href="http://www.kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
-                <li><a href="https://www.kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта kubsu.ru в протоколе https</a></li>
-                <li>
-                    <a href="https://www.kubsu.ru/">
-                        <img src="univer.jpg" alt="Ссылка-изображение" id="a1" width="300" height="200">
-                    </a>
-                </li>
-                <li><a href="/about">Сокращенная ссылка на внутреннюю страницу</a></li>
-                <li><a href="/"> Сокращённая ссылка на главную страницу </a></li>
-                <li><a href="#form-section">Ссылка на фрагмент текущей страницы</a></li>
-                <li><a href="https://example.com/?p1=value&p2=1234&p3=value123">Ссылка с тремя параметрами в URL</a></li>
-                <li><a href="https://example.com/?id=12345">Ссылка с параметром id в URL</a></li>
-                <li><a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
-                <li><a href="about/index.html">Относительная ссылка на страницу в каталоге about</a></li>
-                <li><a href="../index.html">Относительная ссылка на страницу в каталоге уровнем выше</a></li>
-                <li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
-                <li><p>Контекстная <a href="https://www.kubsu.ru/">ссылка </a>в тексте абзаца</p></li>
-                <li><a href="http://example.com/page#about">Ссылка на фрагмент страницы стороннего сайта</a></li>
-                <li>
-                    <p>Cсылки из прямоугольных и круглых областей картинки (HTML-тег map)</p>
-                    <map name="examplemap">
-                        <area shape="rect"
-                              coords="38,40,250,165"
-                              href="https://www.kubsu.ru/"
-                              alt="Прямоугольная область">
-                        <area shape="circle"
-                              coords="400,40,100"
-                              href="https://www.kubsu.ru/"
-                              alt="Круглая область">
-                    </map>
-                    <img src="krugkvadr.jpg"
-                         alt="Cсылки из прямоугольных и круглых областей картинки" usemap="#examplemap" width="500" height="200">
-                </li>
-                <li><a href="">Ссылка с пустым href</a></li>
-                <li><a>Ссылка без href</a></li>
-                <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещён переход поисковикам</a></li>
-                <li><a href="https://example.com" rel="noindex">Ссылка, запрещённая для индексации поисковикам</a></li>
-                <li>
-                    <p>Нумерованный список ссылок с подписями title</p>
-                    <ol>
-                        <li><a href="https://aliexpress.ru/" title="Интернет-магазин Aliexpress">Ссылка 1</a></li>
+            <div class="link-section">
+              <h1 id="links" class="mb-4">Гиперссылки</h1>
+              
+              <ul>
+                  <li><a href="http://www.kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
+                  <li><a href="https://www.kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта kubsu.ru в протоколе https</a></li>
+                  <li>
+                      <a href="https://example.com/">
+                          <img src="univer.jpg" alt="Ссылка-изображение" style="width: 400px;" >
+                      </a>
+                  </li>
+                  <li><a href="/about">Сокращенная ссылка на внутреннюю страницу</a></li>
+                  <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+                  <li><a href="#form-section">Ссылка на фрагмент текущей страницы</a></li>
+                  <li><a href="https://example.com/?p1=value&p2=1234&p3=value123">Ссылка с тремя параметрами в URL</a></li>
+                  <li><a href="https://example.com/?id=12345">Ссылка с параметром id в URL</a></li>
+                  <li><a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                  <li><a href="about/index.html">Относительная ссылка на страницу в каталоге about</a></li>
+                  <li><a href="../index.html">Относительная ссылка на страницу в каталоге уровнем выше</a></li>
+                  <li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнами выше</a></li>
+                  <li><p>Контекстная <a href="https://example.com/">ссылка</a> в тексте абзаца</p></li>
+                  <li><a href="http://example.com/page#about">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                  <li>
+                      <p>Cсылки из прямоугольных и круглых областей картинки (HTML-тег map)</p>
+                      <map name="examplemap">
+                          <area 
+                          shape="rect" 
+                          coords="38,40,250,165" 
+                          href="https://example.com/" 
+                          alt="Прямоугольная область">
+                          <area 
+                          shape="circle" 
+                          coords="400,40,100" 
+                          href="https://example2.com/" 
+                          alt="Круглая область">
+                      </map>
+                      <img src="krugkvadr.jpg" alt="Cсылки из прямоугольных и круглых областей картинки" usemap="#examplemap" width="500" height="200">
+                  </li>
+                  <li><a href="">Ссылка с пустым href</a></li>
+                  <li><a>Ссылка без href</a></li>
+                  <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещён переход поисковикам</a></li>
+                  <li><a href="https://example.com" rel="noindex">Ссылка, запрещённая для индексации поисковикам</a></li>
+                  <li>
+                  <p>Нумерованный список ссылок с подписями title</p>
+                      <ol>
+                          <li><a href="https://aliexpress.ru/" title="Интернет-магазин Aliexpress">Ссылка 1</a></li>
                         <li><a href="https://www.wildberries.ru/" title="Интернет-магазин Wildberries">Ссылка 2</a></li>
                         <li><a href="https://www.ozon.ru/" title="Интернет-магазин Ozon">Ссылка 3</a></li>
-                    </ol>
-                </li>
-                <li><a href="ftp://user:password@example.com/file.txt"> Ссылка на файл на сервере FTP с авторизацией</a></li>
-            </ul>
-        </div>
-    </div>
+                      </ol>
+                  </li>
+                  <li><a href="ftp://user:password@example.com/file.txt"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+              </ul>
+            </div>
+          </div>
           <div class="col-12 col-lg-7 order-1 order-lg-2 order-md-2 mb-4">
             <div class="table-section">
                 <h1 id="table" class="mb-4">Таблица</h1>
