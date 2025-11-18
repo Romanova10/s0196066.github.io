@@ -1,97 +1,33 @@
 ﻿body {
     color: #46240cd6;
     background-color: #ddd4ca96;
-    margin: 8px;
-    overflow-x: hidden;
 }
 header {
     color: #46240c;
     background-color: #ddd4ca;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    box-sizing: border-box;
 }
 .site-title {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    flex: 1;
     color: #46240ce0;
 }
 nav {
     background-color: #46240c36;
-    padding: 21px;
-    width: 100%;
-    max-width: 100%;
-    order: 3;
 }
-.nav-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 10px;
-}
-    .nav-links a {
+.nav-links a {
         color: #46240c;
-        font-size: 20px;
         font-weight: bold;
-        padding: 5px 10px;
     }
-.table-section {
-    order: -1;
-}
-.link-section {
-    order: 0;
-}
-
-.form-section {
-    order: 1;
-}
-
-.content {
-    padding: 10px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-}
 
 table {
     border: 2px solid #888888;
     border-collapse: collapse;
-    font-size: 17px;
-    width: 100%;
-    margin: 20px 0;
-    max-width: 100%;
-    table-layout: fixed;
-    word-wrap: break-word;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
 }
 th, td {
     border: 3px solid #46240c;
-    padding: 9px;
-    text-align: center;
-    word-wrap: break-word;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
 }
 .table-title {
     background-color: #bdafa2;
     color: #46240c;
-    font-size: 24px;
     font-weight: bold;
-    text-align: center;
 }
 
 .row1 {
@@ -104,66 +40,6 @@ th, td {
 footer {
     color: #f7f7f7;
     background-color: #46240cb3;
-    padding: 2px;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
 }
-input, select, textarea {
-    max-width: 100%;
-    box-sizing: border-box;
-}
-@media (min-width: 768px) {
-    header {
-        flex-direction: row;
-        height: 230px;
-        justify-content: flex-start;
-    }
 
-    .site-title {
-        font-size: 40px;
-        text-align: left;
-        order: 0;
-    }
-
-    nav {
-        position: absolute;
-        top: 0;
-        left: 85.5%;
-        transform: translateX(-51%);
-        max-width: none;
-        width: auto;
-        margin: 0;
-        padding: 5px;
-    }
-
-    .nav-links {
-        flex-direction: row;
-        justify-content: center;
-        margin-top:9px;
-        gap: 50px;
-    }
-
-    table {
-        font-size: 18px;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-
-    .table-title {
-        font-size: 22px;
-    }
-
-    .content {
-        max-width: 800px;
-        margin: 0 auto;
-        display: block;
-    }
-
-    footer {
-        width: 100%;
-    }
-}
       
