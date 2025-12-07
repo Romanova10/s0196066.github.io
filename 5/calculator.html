@@ -1,0 +1,35 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор стоимости заказа цветов</title>
+</head>
+<body>
+    <h1>Калькулятор стоимости заказа цветов</h1>
+
+    <form>
+        <div>
+            <label>Выберите вид цветка:</label><br>
+            <select name="products">
+                <option value="250">Роза - 250 руб.</option>
+                <option value="300">Пион - 300 руб.</option>
+                <option value="70">Ромашка - 70 руб.</option>
+                <option value="150">Хризантема - 150 руб.</option>
+                <option value="900">Гортензия - 900 руб.</option>
+            </select>
+        </div>
+        
+        <div>
+            <label>Количество:</label><br>
+            <input name="quantity" type="number">
+        </div>
+        
+        <br>
+        <button id="button1" type="button">Рассчитать стоимость</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
